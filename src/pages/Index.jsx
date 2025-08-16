@@ -20,7 +20,7 @@ export default function Index() {
   }, []);
 
   if (loading) {
-    return <div className="p-6 text-center">Memuat data buku...</div>;
+    return <div className="p-6 text-center">Memuat data buku..</div>;
   }
 
   return (
